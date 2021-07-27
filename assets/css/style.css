@@ -142,6 +142,8 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px #000000;
 }
 
 footer {
