@@ -4,7 +4,7 @@ This is a refactor of a broken webpage, needed SEO, and a webpage that was not u
 
 ## The Original Page 
 
-![original demo page](assets\images\01-html-css-git-homework-demo.png)
+![original demo page](/assets/images/01-html-css-git-homework-demo.png)
 
 ## Fixes
 
