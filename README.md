@@ -6,6 +6,10 @@ This is a refactor of a broken webpage, needed SEO, and a webpage that was not u
 
 ![original demo page](/assets/images/01-html-css-git-homework-demo.png)
 
+## Link to Github pages
+
+[Github Pages](https://tevissaur.github.io/crouching-seo-hidden-accessibility/)
+
 ## Fixes
 
 - Added text shadows and a hover condition to header links to make them standout
