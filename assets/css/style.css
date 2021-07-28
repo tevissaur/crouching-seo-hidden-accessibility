@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* Change the selection color to be more visible */
 ::selection {
     background: #BD9400;
 }
@@ -12,6 +13,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header CSS */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -58,6 +60,7 @@ a:hover {
     color: #949494;
 }
 
+/* Splash image styling */
 div.splash-img {
     height: 800px;
     overflow: hidden;
@@ -71,10 +74,12 @@ img.splash-img {
     margin-bottom: 25px;
 }
 
+/* Setting standard font-size */
 p {
     font-size: 16px;
 }
 
+/* Float styling for images in main content */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -85,6 +90,7 @@ p {
     margin-left: 25px;
 }
 
+/* Styling for main section */
 .content {
     width: 75%;
     display: inline-block;
@@ -114,6 +120,7 @@ p {
     font-size: 36px;
 }
 
+/* Styling for aside section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -146,6 +153,7 @@ p {
     box-shadow: 0px 0px 10px #000000;
 }
 
+/* Footer styling */
 footer {
     padding: 30px;
     clear: both;
