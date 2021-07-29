@@ -5,6 +5,7 @@
 }
 
 /* Change the selection color to be more visible */
+
 ::selection {
     background: #BD9400;
 }
@@ -14,6 +15,7 @@ body {
 }
 
 /* Header CSS */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -56,11 +58,18 @@ a {
     text-shadow: 0px 0px 15px #000000;
 }
 
+a:focus {
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: #BD1600;
+}
+
 a:hover {
     color: #949494;
 }
 
 /* Splash image styling */
+
 div.splash-img {
     height: 800px;
     overflow: hidden;
@@ -75,6 +84,7 @@ img.splash-img {
 }
 
 /* Float styling for images in main content */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -86,6 +96,7 @@ img.splash-img {
 }
 
 /* Styling for main section */
+
 .content {
     width: 75%;
     display: inline-block;
@@ -104,6 +115,12 @@ img.splash-img {
     box-shadow: 0px 0px 10px #575757;
 }
 
+.content section:focus {
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: #BD1600;
+}
+
 .content img {
     max-height: 200px;
     border: 3px double black;
@@ -116,6 +133,7 @@ img.splash-img {
 }
 
 /* Styling for aside section */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -129,8 +147,14 @@ img.splash-img {
     box-shadow: 0px 0px 10px #575757;
 }
 
+.benefits:focus {
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: #BD1600;
+}
+
 .benefits section {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: #ffffff;
     font-size: 18px;
 }
@@ -149,6 +173,7 @@ img.splash-img {
 }
 
 /* Footer styling */
+
 footer {
     padding: 30px;
     clear: both;
