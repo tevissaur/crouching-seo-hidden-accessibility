@@ -21,3 +21,4 @@ This is a refactor of a broken webpage, needed SEO, and a webpage that was not u
 - Added comments throughout to organize code better
 - Made the company logo a link to the homepage
 - Changed font in main sections to bigger, easier to read fonts
+- Added and styled focusability
